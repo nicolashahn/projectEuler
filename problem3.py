@@ -2,22 +2,6 @@
 # Nicolas Hahn
 # Problem 3
 
-def prime(n):
-	for i in range(2,n-1):
-		if n%i == 0:
-			return False
-	return True
-
-def isFactor(f,n):
-	if n%f == 0:
-		return True
-	return False
-
-def factorRemainder(f,n):
-	if isFactor(f,n):
-		return n/f
-
-
 def factors(num):
 	f = []
 	i = 2
@@ -34,6 +18,7 @@ def factors(num):
 			break
 	return f
 
+num = 600851475143
 
 print max(factors(num))
 
