@@ -20,7 +20,7 @@ def factors(num):
 
 num = 600851475143
 
-print max(factors(num))
+print(max(factors(num)))
 
 
 # print [prime(i) for i in factors(num)]
